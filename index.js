@@ -32,4 +32,8 @@ const questions = [
 
 const cli = new CLI(questions);
 // // console.log(cli);
-cli.run();
+cli.run().then((logoString) => {
+  fs.writeFile("./dist/logo.svg", logoString, (error) => {
+    error ? console.log(error) : console.log("Generated logo.svg");
+  });
+});

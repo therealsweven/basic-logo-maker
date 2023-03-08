@@ -1,2 +1,1 @@
-<svg height="200" width="300"><polygon points="0 200, 150 0, 300 200" fill="red" stroke="white"/><text x="150" y="170" text-anchor="middle" fill="blue" font-size="80">WOW</text>
-</svg>
+<svg height="200" width="300"><circle cx="150" cy="100" r="100" stroke="white" fill="green" /><text x="150" y="130" text-anchor="middle" fill="blue" font-size="80">RUN</text></svg>
